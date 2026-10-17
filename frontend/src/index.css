@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, "Noto Sans Thai", ui-sans-serif, system-ui, sans-serif;
+  color: #f8fafc;
+  background: #09090b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button {
+  font: inherit;
+}

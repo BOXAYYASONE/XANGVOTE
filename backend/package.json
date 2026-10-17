@@ -1,0 +1,26 @@
+{
+  "name": "xang-vote-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node --watch --env-file-if-exists=.env src/server.js",
+    "db:init": "node --env-file-if-exists=.env src/config/init-cli.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "mysql2": "^3.14.5",
+    "sharp": "^0.35.5",
+    "zod": "^4.1.5"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+.env
+backend/data/
+backend/uploads/
+frontend/dist/
+
+# ????????? session ??? request
+cookies.txt
+admin.txt
+login.json
+open.json
+wrong.json
